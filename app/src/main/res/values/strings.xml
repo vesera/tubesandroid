@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HoloWiki</string>
+
+    <string name="SidebarMenu">Sidebar Menu</string>
+
+    <string name="cover_corps">COVER Corporation</string>
+    <string name="hololive">Hololive</string>
+    <string name="holostars">Holostars</string>
+    <string name="navigation_drawer_open">Opened</string>
+    <string name="navigation_drawer_close">Closed</string>
+</resources>
