@@ -1,11 +1,87 @@
 <resources>
     <string name="app_name">HoloWiki</string>
 
+    <string name="api_key">AIzaSyDyh18rdNrjFuhJjGmPE8QrWxI7Bmse8p8</string>
+
     <string name="SidebarMenu">Sidebar Menu</string>
 
     <string name="cover_corps">COVER Corporation</string>
     <string name="hololive">Hololive</string>
     <string name="holostars">Holostars</string>
+
+    <string name="gen0">Generation 0</string>
+    <string name="SoraText">Tokino Sora</string>
+    <string name="MikoText">Sakura Miko</string>
+    <string name="RobocoText">Roboco</string>
+    <string name="SuiseiText">Hoshimachi Suisei</string>
+
+    <string name="gen1">Generation 1</string>
+    <string name="FubukiText">Shirakami Fubuki</string>
+    <string name="HaatoText">Akai Haato</string>
+    <string name="MatsuriText">Natsuiro Matsuri</string>
+    <string name="AkiText">Aki Rosenthal</string>
+
+    <string name="AruranText">Arurandeisu</string>
+    <string name="MiyabiText">Hanasaki Miyabi</string>
+    <string name="KiraText">Kagami Kira</string>
+    <string name="IzuruText">Kanade Izuru</string>
+    <string name="RikkaText">Rikka</string>
+    <string name="SuzakuText">Yakushiji Suzaku</string>
+
+    <string name="gen2">Generation 2</string>
+    <string name="ShionText">Murasaki Shion</string>
+    <string name="ChocoText">Yuzuki Choco</string>
+    <string name="AquaText">Minato Aqua</string>
+    <string name="SubaruText">Oozora Subaru</string>
+
+    <string name="AstelText">Astel Leda</string>
+    <string name="TenmaText">Kishido Tenma</string>
+    <string name="RoberuText">Yukoku Roberu</string>
+
+    <string name="gen3">Generation 3</string>
+    <string name="RushiaText">Uruha Rushia</string>
+    <string name="NoelText">Shirogane Noel</string>
+    <string name="FlareText">Shiranui Flare</string>
+    <string name="PekoraText">Usada Pekora</string>
+
+    <string name="OgaText">Aragami Oga</string>
+    <string name="ShienText">Kageyama Shien</string>
+    <string name="KaoruText">Tsukishita Kaoru</string>
+
+    <string name="gen4">Generation 4</string>
+    <string name="WatameText">Tsunomaki Watame</string>
+    <string name="CocoText">Kiryuu Coco</string>
+    <string name="KanataText">Amane Kanata</string>
+    <string name="LunaText">Himemori Luna</string>
+    <string name="TowaText">Tokoyami Towa</string>
+
+    <string name="gen5">Generation 5</string>
+    <string name="BotanText">Shishiro Botan</string>
+    <string name="LamyText">Yukihana Lamy</string>
+    <string name="PolkaText">Omaru Polka</string>
+    <string name="NeneText">Momosuzu Nene</string>
+
+    <string name="id_gen1">Generation 1 ID</string>
+    <string name="IofiText">Airani Iofifteen</string>
+    <string name="MoonaText">Moona Hoshinova</string>
+    <string name="RisuText">Ayunda Risu</string>
+
+    <string name="id_gen2">Generation 2 ID</string>
+    <string name="AnyaText">Anya Melfissa</string>
+    <string name="ReineText">Pavolia Reine</string>
+    <string name="OllieText">Kureiji Ollie</string>
+
+    <string name="en">Hololive EN</string>
+    <string name="CalliText">Mori Calliope</string>
+    <string name="KiaraText">Takanashi Kiara</string>
+    <string name="InaText">Ninomae Ina\'nis</string>
+    <string name="GuraText">Gawr Gura</string>
+    <string name="AmeliaText">Amelia Watson</string>
+
     <string name="navigation_drawer_open">Opened</string>
     <string name="navigation_drawer_close">Closed</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="indonesia_branch">Indonesia Branch</string>
+    <string name="english_branch">English Branch</string>
 </resources>

@@ -22,4 +22,57 @@
             app:popupTheme="@style/Widget.AppCompat.PopupMenu" />
 
     </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp"
+        app:layout_anchorGravity="center">
+
+        <ImageView
+            android:id="@+id/Hololive"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="607dp"
+            app:srcCompat="@drawable/ic_tokino_sora" />
+
+        <TextView
+            android:id="@+id/Hololive_Text"
+            android:layout_width="339dp"
+            android:layout_height="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/Hololive"
+            android:text="@string/hololive"
+            android:textAlignment="gravity"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:id="@+id/Holostars"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="87dp"
+            android:layout_marginBottom="519dp" />
+
+        <TextView
+            android:id="@+id/Holostars_Text"
+            android:layout_width="339dp"
+            android:layout_height="32dp"
+            android:layout_alignTop="@+id/Hololive_Text"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="105dp"
+            android:layout_toEndOf="@+id/Holostars"
+            android:text="@string/holostars"
+            android:textAlignment="gravity"
+            android:textSize="24dp" />
+
+
+    </RelativeLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

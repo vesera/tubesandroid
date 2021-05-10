@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/Widget.Design.AppBarLayout">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/Widget.AppCompat.PopupMenu" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="836dp"
+        android:layout_marginTop="55dp"
+        app:layout_anchorGravity="center">
+
+        <ImageView
+            android:id="@+id/Natsuiro_ProfPic"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@drawable/ic_tokino_sora" />
+
+        <TextView
+            android:id="@+id/NatsuiroName"
+            android:layout_width="261dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/Natsuiro_ProfPic"
+            android:text="Name"
+            android:textAlignment="gravity"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/NatsuiroMatsuri_Name"
+            android:layout_width="161dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/Natsuiro_ProfPic"
+            android:textAlignment="gravity"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/NatsuiroAge"
+            android:layout_width="261dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="25dp"
+            android:layout_toEndOf="@+id/Natsuiro_ProfPic"
+            android:text="Age"
+            android:textAlignment="gravity"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/NatsuiroMatsuri_Age"
+            android:layout_width="339dp"
+            android:layout_height="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="25dp"
+            android:layout_toEndOf="@+id/Natsuiro_ProfPic"
+            android:textAlignment="gravity"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/NatsuiroBirth"
+            android:layout_width="339dp"
+            android:layout_height="32dp"
+            android:layout_below="@+id/NatsuiroMatsuri_Name"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="25dp"
+            android:layout_toEndOf="@+id/Natsuiro_ProfPic"
+            android:text="Birthday"
+            android:textAlignment="gravity"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/NatsuiroMatsuri_Birth"
+            android:layout_width="339dp"
+            android:layout_height="32dp"
+            android:layout_below="@+id/NatsuiroMatsuri_Name"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="25dp"
+            android:layout_toEndOf="@+id/Natsuiro_ProfPic"
+            android:textAlignment="gravity"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/NatsuiroDebut"
+            android:layout_width="339dp"
+            android:layout_height="32dp"
+            android:layout_alignTop="@+id/NatsuiroMatsuri_Birth"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="25dp"
+            android:layout_toEndOf="@+id/Natsuiro_ProfPic"
+            android:text="Debut"
+            android:textAlignment="gravity"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/NatsuiroMatsuri_Debut"
+            android:layout_width="339dp"
+            android:layout_height="32dp"
+            android:layout_alignTop="@+id/NatsuiroMatsuri_Birth"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="25dp"
+            android:layout_toEndOf="@+id/Natsuiro_ProfPic"
+            android:textAlignment="gravity"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/NatsuiroHeight"
+            android:layout_width="339dp"
+            android:layout_height="32dp"
+            android:layout_alignTop="@+id/NatsuiroMatsuri_Debut"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="25dp"
+            android:layout_toEndOf="@+id/Natsuiro_ProfPic"
+            android:text="Height"
+            android:textAlignment="gravity"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/NatsuiroMatsuri_Height"
+            android:layout_width="339dp"
+            android:layout_height="32dp"
+            android:layout_alignTop="@+id/NatsuiroMatsuri_Debut"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="25dp"
+            android:layout_toEndOf="@+id/Natsuiro_ProfPic"
+            android:textAlignment="gravity"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/NatsuiroGender"
+            android:layout_width="339dp"
+            android:layout_height="32dp"
+            android:layout_below="@+id/NatsuiroMatsuri_Debut"
+            android:layout_marginStart="-2dp"
+            android:layout_marginTop="25dp"
+            android:layout_toEndOf="@+id/Natsuiro_ProfPic"
+            android:text="Gender"
+            android:textAlignment="gravity"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/NatsuiroMatsuri_Gender"
+            android:layout_width="339dp"
+            android:layout_height="32dp"
+            android:layout_below="@+id/NatsuiroMatsuri_Debut"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="25dp"
+            android:layout_toEndOf="@+id/Natsuiro_ProfPic"
+            android:textAlignment="gravity"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/NatsuiroProfDesc"
+            android:layout_width="339dp"
+            android:layout_height="32dp"
+            android:layout_alignTop="@+id/NatsuiroGender"
+            android:layout_marginTop="50dp"
+            android:text="Profile Description"
+            android:textAlignment="gravity"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/NatsuiroMatsuri_ProfDesc"
+            android:layout_width="match_parent"
+            android:layout_height="248dp"
+            android:layout_below="@+id/NatsuiroProfDesc"
+            android:layout_marginTop="3dp"
+            android:textAlignment="gravity"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/Widget.Design.AppBarLayout">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/Widget.AppCompat.PopupMenu" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp"
+        app:layout_anchorGravity="center">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewHololive"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <ImageView
+            android:id="@+id/Hololive_Gen0"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="607dp"
+            app:srcCompat="@drawable/ic_tokino_sora" />
+
+        <TextView
+            android:id="@+id/Hololive_Gen0_Text"
+            android:layout_width="339dp"
+            android:layout_height="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/Hololive_Gen0"
+            android:text="@string/gen0"
+            android:textAlignment="gravity"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:id="@+id/Hololive_Gen1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="87dp"
+            android:layout_marginBottom="519dp"
+            app:srcCompat="@drawable/ic_tokino_sora"/>
+
+        <TextView
+            android:id="@+id/Hololive_Gen1_Text"
+            android:layout_width="339dp"
+            android:layout_height="32dp"
+            android:layout_alignTop="@+id/Hololive_Gen0_Text"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="105dp"
+            android:layout_toEndOf="@+id/Hololive_Gen1"
+            android:text="@string/gen1"
+            android:textAlignment="gravity"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:id="@+id/Hololive_Gen2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="174dp"
+            android:layout_marginBottom="438dp"
+            app:srcCompat="@drawable/ic_tokino_sora" />
+
+        <TextView
+            android:id="@+id/Hololive_Gen2_Text"
+            android:layout_width="339dp"
+            android:layout_height="32dp"
+            android:layout_alignTop="@+id/Hololive_Gen1_Text"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="190dp"
+            android:layout_toEndOf="@+id/Hololive_Gen2"
+            android:text="@string/gen2"
+            android:textAlignment="gravity"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:id="@+id/Hololive_Gen3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="261dp"
+            android:layout_marginBottom="351dp"
+            app:srcCompat="@drawable/ic_tokino_sora" />
+
+        <TextView
+            android:id="@+id/Hololive_Gen3_Text"
+            android:layout_width="339dp"
+            android:layout_height="32dp"
+            android:layout_alignTop="@+id/Hololive_Gen2_Text"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="275dp"
+            android:layout_toEndOf="@+id/Hololive_Gen3"
+            android:text="@string/gen3"
+            android:textAlignment="gravity"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:id="@+id/Hololive_Gen4"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="348dp"
+            android:layout_marginBottom="264dp"
+            app:srcCompat="@drawable/ic_tokino_sora" />
+
+        <TextView
+            android:id="@+id/Hololive_Gen4_Text"
+            android:layout_width="339dp"
+            android:layout_height="32dp"
+            android:layout_alignTop="@+id/Hololive_Gen3_Text"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="360dp"
+            android:layout_toEndOf="@+id/Hololive_Gen4"
+            android:text="@string/gen4"
+            android:textAlignment="gravity"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:id="@+id/Hololive_Gen5"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="435dp"
+            android:layout_marginBottom="177dp"
+            app:srcCompat="@drawable/ic_tokino_sora" />
+
+        <TextView
+            android:id="@+id/Hololive_Gen5_Text"
+            android:layout_width="339dp"
+            android:layout_height="32dp"
+            android:layout_alignTop="@+id/Hololive_Gen4_Text"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="445dp"
+            android:layout_toEndOf="@+id/Hololive_Gen5"
+            android:text="@string/gen5"
+            android:textAlignment="gravity"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:id="@+id/Hololive_ID"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="520dp"
+            android:layout_marginBottom="90dp"
+            app:srcCompat="@drawable/ic_tokino_sora" />
+
+        <TextView
+            android:id="@+id/Hololive_ID_Text"
+            android:layout_width="339dp"
+            android:layout_height="32dp"
+            android:layout_alignTop="@+id/Hololive_Gen5_Text"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="530dp"
+            android:layout_toEndOf="@+id/Hololive_ID"
+            android:text="@string/indonesia_branch"
+            android:textAlignment="gravity"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:id="@+id/Hololive_EN"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="607dp"
+            android:layout_marginBottom="3dp"
+            app:srcCompat="@drawable/ic_tokino_sora" />
+
+        <TextView
+            android:id="@+id/Hololive_EN_Text"
+            android:layout_width="339dp"
+            android:layout_height="32dp"
+            android:layout_alignTop="@+id/Hololive_ID_Text"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="615dp"
+            android:layout_toEndOf="@+id/Hololive_EN"
+            android:text="@string/english_branch"
+            android:textAlignment="gravity"
+            android:textSize="24dp" />
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

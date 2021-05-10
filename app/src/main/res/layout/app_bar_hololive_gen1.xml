@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/Widget.Design.AppBarLayout">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/Widget.AppCompat.PopupMenu" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp"
+        app:layout_anchorGravity="center">
+
+        <ImageView
+            android:id="@+id/ShirakamiFubuki"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="607dp"
+            app:srcCompat="@drawable/ic_tokino_sora" />
+
+        <TextView
+            android:id="@+id/Fubuki_Text"
+            android:layout_width="339dp"
+            android:layout_height="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/ShirakamiFubuki"
+            android:text="@string/FubukiText"
+            android:textAlignment="gravity"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:id="@+id/AkaiHaato"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="87dp"
+            android:layout_marginBottom="519dp"
+            app:srcCompat="@drawable/ic_tokino_sora" />
+
+        <TextView
+            android:id="@+id/Haato_Text"
+            android:layout_width="339dp"
+            android:layout_height="32dp"
+            android:layout_alignTop="@+id/Fubuki_Text"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="105dp"
+            android:layout_toEndOf="@+id/AkaiHaato"
+            android:text="@string/HaatoText"
+            android:textAlignment="gravity"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:id="@+id/AkiRosenthal"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignTop="@+id/AkaiHaato"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="87dp"
+            android:layout_marginBottom="433dp"
+            app:srcCompat="@drawable/ic_tokino_sora"/>
+
+        <TextView
+            android:id="@+id/Aki_Text"
+            android:layout_width="339dp"
+            android:layout_height="32dp"
+            android:layout_alignTop="@+id/Haato_Text"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="90dp"
+            android:layout_toEndOf="@+id/AkiRosenthal"
+            android:text="@string/AkiText"
+            android:textAlignment="gravity"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:id="@+id/NatsuiroMatsuri"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignTop="@+id/AkiRosenthal"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="87dp"
+            android:layout_marginBottom="346dp"
+            app:srcCompat="@drawable/ic_tokino_sora"/>
+
+        <TextView
+            android:id="@+id/Matsuri_Text"
+            android:layout_width="339dp"
+            android:layout_height="32dp"
+            android:layout_alignTop="@+id/Aki_Text"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="85dp"
+            android:layout_toEndOf="@+id/NatsuiroMatsuri"
+            android:text="@string/MatsuriText"
+            android:textAlignment="gravity"
+            android:textSize="24dp" />
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
